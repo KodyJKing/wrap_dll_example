@@ -30,6 +30,7 @@ void flip( short& value ) {
     value = (short) ivalue;
 }
 
+// Tell wrap_dll to hook XInputGetState:
 #define XINPUTGETSTATE
 FAKE( DWORD, __stdcall, XInputGetState, DWORD dwUserIndex, XINPUT_STATE* pState ) {
     auto result = XInputGetState_real( dwUserIndex, pState );
