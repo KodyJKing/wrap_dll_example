@@ -1,0 +1,4 @@
+/bin/*
+/wrap_dll
+/ghidra
+/build
