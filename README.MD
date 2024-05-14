@@ -1,6 +1,8 @@
 # wrap_dll example
 
-This example wraps `xinput1_3.dll` to hook the `XInputGetState` function and invert the analog sticks.
+This is an example usage of my [fork of wrap_dll](https://github.com/KodyJKing/wrap_dll).
+
+It wraps `xinput1_3.dll`, hooking the `XInputGetState` function and inverting the analog sticks.
 
 ### Building
 
